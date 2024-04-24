@@ -1,0 +1,114 @@
+.add-person-tab {
+  border: 2px solid black;
+  width: 90%;
+  margin: 40px auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-person h4 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
+.entry {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+table {
+  width: 90%;
+}
+
+thead {
+  border: 2px solid black;
+  background-color: #4472c4;
+  height: 40px;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+input {
+  width: 96%;
+}
+
+.person-form {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #4472c4;
+}
+.h3 {
+  padding-top: 10px;
+}
+.person-form h3 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.add {
+  background-color: #4472c4;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-left: 89%;
+  margin-bottom: 10px;
+  width: 8%;
+}
+
+.form {
+  display: flex;
+  margin: 20px 0;
+}
+tr,
+td,
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.del {
+  background-color: #4472c4;
+  color: white;
+}
+.del:hover {
+  background-color: red;
+}
+
+.sub {
+  background-color: #04aa6d;
+
+  text-transform: capitalize;
+  padding: 3px;
+  color: white;
+}
+
+.search-input {
+  display: flex;
+  margin-left: 30px;
+}
+.search-input input {
+  width: 30%;
+}
+.search-input button {
+  background-color: #4472c4;
+  color: white;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+.data-found {
+  margin: 30px;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.no-use {
+  margin-left: 30px;
+}
